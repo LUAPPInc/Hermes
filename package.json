@@ -1,0 +1,79 @@
+{
+  "name": "hermes",
+  "version": "0.0.1",
+  "description": "Automated chromium based scale browser testing",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LUAPPInc/Hermes.git"
+  },
+  "scripts": {
+    "lint": "standard -v | ./node_modules/.bin/standard-reporter --stylish",
+    "lint:fix": "standard --fix -v | ./node_modules/.bin/standard-reporter --stylish",
+    "test": "ava --color -v -T 300000",
+    "cover": "nyc --reporter=lcov --reporter=text --reporter-dir ./coverage --clean --cache --instrument ava",
+    "report": "cat ./coverage/lcov.info | codecov && rm -rf coverage .nyc_output",
+    "bump": "./scripts/bump.sh"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "pre-push": [
+    "test",
+    "cover",
+    "bump"
+  ],
+  "standard": {
+    "globals": [
+      "should",
+      "describe",
+      "it",
+      "beforeEach",
+      "before",
+      "after",
+      "afterEach"
+    ]
+  },
+  "keywords": [
+    "browser",
+    "testing",
+    "automated",
+    "chrome",
+    "chromium",
+    "end",
+    "to",
+    "end",
+    "e2e"
+  ],
+  "author": "Lunnar Applications <contato@lunnarapps.com.br>",
+  "contributors": [
+    "Lucas Santos <lhs.santoss@gmail.com>",
+    "Guilherme Pereira <guiihpr@gmail.com>"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LUAPPInc/Hermes/issues"
+  },
+  "homepage": "https://github.com/LUAPPInc/Hermes#readme",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "codecov": "^2.1.0",
+    "nyc": "^10.2.0",
+    "pre-commit": "^1.2.2",
+    "pre-push": "^0.1.1",
+    "sinon": "^2.3.5",
+    "standard": "^10.0.2",
+    "standard-reporter": "^1.0.5"
+  },
+  "ignore": [
+    "node_modules/",
+    "coverage/",
+    ".nyc_output"
+  ],
+  "dependencies": {
+    "puppeteer": "^0.9.0"
+  }
+}
