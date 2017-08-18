@@ -1,13 +1,15 @@
 {
   "name": "@lunnarapps/hermes",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Automated chromium based scale browser testing",
   "main": "hermes.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LUAPPInc/Hermes.git"
   },
- "bin": { "hermes":"hermes.js" },
+  "bin": {
+    "hermes": "hermes.js"
+  },
   "preferGlobal": true,
   "files": [
     "hermes.js",
