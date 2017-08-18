@@ -1,0 +1,29 @@
+[
+  {
+    "name": "16-9",
+    "resolution": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  {
+    "name": "8-5",
+    "resolution": {
+      "width": 1280,
+      "height": 800
+    }
+  },
+  {
+    "name": "iPad",
+    "resolution": {
+      "width": 1024,
+      "height": 768
+    }
+  },
+  {
+    "resolution": {
+      "width": 800,
+      "height": 600
+    }
+  }
+]
