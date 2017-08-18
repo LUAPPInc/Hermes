@@ -8,9 +8,6 @@
     "url": "git+https://github.com/LUAPPInc/Hermes.git"
   },
   "preferGlobal": true,
-  "bin": {
-    "hermes": "hermes.js"
-  },
   "files": [
     "hermes.js",
     "src/"
