@@ -1,6 +1,6 @@
 {
   "name": "hermes",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Automated chromium based scale browser testing",
   "main": "hermes.js",
   "repository": {
