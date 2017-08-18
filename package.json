@@ -2,11 +2,19 @@
   "name": "hermes",
   "version": "0.0.1",
   "description": "Automated chromium based scale browser testing",
-  "main": "index.js",
+  "main": "hermes.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LUAPPInc/Hermes.git"
   },
+  "preferGlobal": true,
+  "bin": {
+    "hermes": "hermes.js"
+  },
+  "files": [
+    "hermes.js",
+    "src/"
+  ],
   "scripts": {
     "lint": "standard -v | ./node_modules/.bin/standard-reporter --stylish",
     "lint:fix": "standard --fix -v | ./node_modules/.bin/standard-reporter --stylish",
@@ -74,6 +82,10 @@
     ".nyc_output"
   ],
   "dependencies": {
-    "puppeteer": "^0.9.0"
+    "caporal": "^0.7.0",
+    "normalize-url": "^1.9.1",
+    "ora": "^1.3.0",
+    "puppeteer": "^0.9.0",
+    "uuid": "^3.1.0"
   }
 }
