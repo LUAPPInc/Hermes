@@ -1,5 +1,5 @@
 {
-  "name": "hermes",
+  "name": "@lunnarapps/hermes",
   "version": "0.2.0",
   "description": "Automated chromium based scale browser testing",
   "main": "hermes.js",
