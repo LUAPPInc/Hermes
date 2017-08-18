@@ -40,7 +40,7 @@ async function takeSS (page, logger) {
 
 function importFile (file) {
   try {
-    return JSON.parse(fs.readFileSync(file))
+    return (file) ? JSON.parse(fs.readFileSync(file)) : null
   } catch (error) {
     throw new Error(`File ${file} must be a JSON`)
   }
@@ -74,7 +74,7 @@ async function command (args, options, logger) {
   const browser = await driver.launch()
 
   try {
-    logger.info(`Initializing viewport test for ${urls.length} links`)
+    logger.info(`Initializing viewport test for ${urls.length} URL`)
     for (let url of urls) {
       spinner.start(`Navigating to ${url}`)
       let page = await browser.newPage()
