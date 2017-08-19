@@ -27,9 +27,9 @@
     "lint"
   ],
   "pre-push": [
-    "test",
-    "cover",
-    "bump"
+    // "test",
+    // "cover",
+    // "bump"
   ],
   "standard": {
     "globals": [
