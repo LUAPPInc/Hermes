@@ -20,17 +20,8 @@
     "lint:fix": "standard --fix -v | ./node_modules/.bin/standard-reporter --stylish",
     "test": "ava --color -v -T 300000",
     "cover": "nyc --reporter=lcov --reporter=text --reporter-dir ./coverage --clean --cache --instrument ava",
-    "report": "cat ./coverage/lcov.info | codecov && rm -rf coverage .nyc_output",
-    "bump": "./scripts/bump.sh"
+    "report": "cat ./coverage/lcov.info | codecov && rm -rf coverage .nyc_output"
   },
-  "pre-commit": [
-    "lint"
-  ],
-  "pre-push": [
-    // "test",
-    // "cover",
-    // "bump"
-  ],
   "standard": {
     "globals": [
       "should",
