@@ -5,7 +5,7 @@ const normalize = require('normalize-url')
 let ssPath = null
 let viewports = [
   {
-    name: '16-9',
+    name: 'HD',
     resolution: {
       width: 1920,
       height: 1080
@@ -19,10 +19,9 @@ let viewports = [
     }
   },
   {
-    name: 'iPad',
     resolution: {
-      width: 768,
-      height: 1024
+      width: 1024,
+      height: 768
     }
   }
 ]
