@@ -3,28 +3,7 @@ let spinner = require('ora')({ color: 'blue' })
 const fs = require('fs')
 const normalize = require('normalize-url')
 let ssPath = null
-let viewports = [
-  {
-    name: 'HD',
-    resolution: {
-      width: 1920,
-      height: 1080
-    }
-  },
-  {
-    name: '8:5',
-    resolution: {
-      width: 1280,
-      height: 800
-    }
-  },
-  {
-    resolution: {
-      width: 1024,
-      height: 768
-    }
-  }
-]
+let viewports = require('../../vp.json')
 
 async function takeSS (page, logger) {
   try {

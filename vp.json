@@ -1,29 +1,254 @@
-[
-  {
-    "name": "16-9",
+[{
+    "name": "iphone",
     "resolution": {
-      "width": 1920,
-      "height": 1080
+      "width": 320,
+      "height": 480
+    }
+  }, {
+    "name": "iphone 3g",
+    "resolution": {
+      "width": 320,
+      "height": 480
+    }
+  }, {
+    "name": "iphone 3gs",
+    "resolution": {
+      "width": 320,
+      "height": 480
+    }
+  }, {
+    "name": "iphone 4",
+    "resolution": {
+      "width": 320,
+      "height": 480
+    }
+  }, {
+    "name": "iphone 4s",
+    "resolution": {
+      "width": 320,
+      "height": 480
+    }
+  }, {
+    "name": "iphone 5",
+    "resolution": {
+      "width": 320,
+      "height": 568
+    }
+  }, {
+    "name": "iphone 5c",
+    "resolution": {
+      "width": 320,
+      "height": 568
+    }
+  }, {
+    "name": "iphone 5s",
+    "resolution": {
+      "width": 320,
+      "height": 568
+    }
+  }, {
+    "name": "iphone 6",
+    "resolution": {
+      "width": 375,
+      "height": 667
+    }
+  }, {
+    "name": "iphone 6 plus",
+    "resolution": {
+      "width": 414,
+      "height": 736
+    }
+  }, {
+    "name": "iphone 7",
+    "resolution": {
+      "width": 375,
+      "height": 667
+    }
+  }, {
+    "name": "iphone 7 plus",
+    "resolution": {
+      "width": 414,
+      "height": 736
+    }
+  }, {
+    "name": "nexus 10",
+    "resolution": {
+      "width": 800,
+      "height": 1280
     }
   },
   {
-    "name": "8-5",
+    "name": "nexus 4",
+    "resolution": {
+      "width": 384,
+      "height": 598
+    }
+  },
+  {
+    "name": "nexus 5",
+    "resolution": {
+      "width": 360,
+      "height": 598
+    }
+  },
+  {
+    "name": "nexus 7",
+    "resolution": {
+      "width": 603,
+      "height": 966
+    }
+  },
+  {
+    "name": "nexus 7",
+    "resolution": {
+      "width": 600,
+      "height": 961
+    }
+  },
+  {
+    "name": "nexus 7",
+    "resolution": {
+      "width": 601,
+      "height": 962
+    }
+  },
+  {
+    "name": "nexus 7 (lcd density set to 175ppi)",
+    "resolution": {
+      "width": 731,
+      "height": 1170
+    }
+  },
+  {
+    "name": "nexus 7 (2013)",
+    "resolution": {
+      "width": 600,
+      "height": 960
+    }
+  },
+  {
+    "name": "nexus one",
+    "resolution": {
+      "width": 320,
+      "height": 533
+    }
+  },
+  {
+    "name": "nexus s",
+    "resolution": {
+      "width": 320,
+      "height": 533
+    }
+  },
+  {
+    "name": "kindle fire 2",
+    "resolution": {
+      "width": 600,
+      "height": 963
+    }
+  },
+  {
+    "name": "kindle fire hd",
+    "resolution": {
+      "width": 533,
+      "height": 801
+    }
+  },
+  {
+    "name": "kindle fire hd 8.9",
+    "resolution": {
+      "width": 800,
+      "height": 1220
+    }
+  },
+  {
+    "name": "Desktop SVGA",
+    "resolution": {
+      "width": 800,
+      "height": 600
+    }
+  },
+  {
+    "name": "Desktop XGA",
+    "resolution": {
+      "width": 1024,
+      "height": 768
+    }
+  }, {
+    "name": "Desktop HD",
+    "resolution": {
+      "width": 1280,
+      "height": 720
+    }
+  },
+  {
+    "name": "Desktop WXGA",
+    "resolution": {
+      "width": 1280,
+      "height": 768
+    }
+  },
+  {
+    "name": "Desktop WXGA800",
     "resolution": {
       "width": 1280,
       "height": 800
     }
   },
   {
-    "name": "iPad",
+    "name": "Desktop WSXGA",
     "resolution": {
-      "width": 1024,
+      "width": 1280,
+      "height": 960
+    }
+  },
+  {
+    "name": "Desktop SXGA",
+    "resolution": {
+      "width": 1280,
+      "height": 1024
+    }
+  },
+  {
+    "name": "Desktop WXGA1360",
+    "resolution": {
+      "width": 1360,
       "height": 768
     }
   },
   {
+    "name": "Desktop WXGA+",
     "resolution": {
-      "width": 800,
-      "height": 600
+      "width": 1440,
+      "height": 900
+    }
+  },
+  {
+    "name": "Desktop HD+",
+    "resolution": {
+      "width": 1600,
+      "height": 900
+    }
+  },
+  {
+    "name": "Desktop Full-HD",
+    "resolution": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  {
+    "name": "Desktop QHD+",
+    "resolution": {
+      "width": 3200,
+      "height": 1800
+    }
+  },
+  {
+    "name": "Desktop 4K",
+    "resolution": {
+      "width": 3840,
+      "height": 2160
     }
   }
 ]
