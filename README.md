@@ -64,7 +64,7 @@ As of now, Hermes currently support a `viewport` command, which means that you c
 
 Viewport testing means that Hermes navigates to all websites passed to it and then takes a screenshot of the browser in a desired size. The catch is: __Everything is defined by a JSON file__.
 
-This means that you can have either a JSON file containing all URL's you're going to test or the `[links]` argument is a comma-separated list of URLs, such as `google.com, github.com, bing.com`. This list is optional, but if you ommit it, then the `-l` option becomes required. This options states a path where Hermes will be able to locate a JSON file with the following contents:
+This means that you can have either a JSON file containing all URL's you're going to test or the `[links]` argument is a comma-separated list of URLs, such as `google.com,github.com,bing.com`. This list is optional, but if you ommit it, then the `-l` option becomes required. This options states a path where Hermes will be able to locate a JSON file with the following contents:
 
 ```json
 [
