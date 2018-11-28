@@ -20,7 +20,9 @@
     "lint:fix": "standard --fix -v | ./node_modules/.bin/standard-reporter --stylish",
     "test": "ava --color -v -T 300000",
     "cover": "nyc --reporter=lcov --reporter=text --reporter-dir ./coverage --clean --cache --instrument ava",
-    "report": "cat ./coverage/lcov.info | codecov && rm -rf coverage .nyc_output"
+    "report": "cat ./coverage/lcov.info | codecov && rm -rf coverage .nyc_output",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "standard": {
     "globals": [
@@ -77,6 +79,8 @@
     "normalize-url": "^1.9.1",
     "ora": "^1.3.0",
     "puppeteer": "^0.9.0",
-    "uuid": "^3.1.0"
-  }
+    "uuid": "^3.1.0",
+    "snyk": "^1.110.2"
+  },
+  "snyk": true
 }
