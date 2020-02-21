@@ -59,7 +59,7 @@
   "homepage": "https://github.com/LUAPPInc/Hermes#readme",
   "devDependencies": {
     "ava": "^0.19.1",
-    "codecov": "^2.1.0",
+    "codecov": "^3.6.5",
     "nyc": "^10.2.0",
     "pre-commit": "^1.2.2",
     "pre-push": "^0.1.1",
