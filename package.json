@@ -75,12 +75,12 @@
     ".nyc_output"
   ],
   "dependencies": {
-    "caporal": "^0.7.0",
+    "caporal": "^1.0.0",
     "normalize-url": "^4.5.1",
     "ora": "^1.3.0",
     "puppeteer": "^3.0.0",
     "uuid": "^3.1.0",
-    "snyk": "^1.518.0"
+    "snyk": "^1.685.0"
   },
   "snyk": true
 }
